@@ -1,10 +1,5 @@
 import React, {Component} from 'react';
-import {render} from 'react-dom';
+import ReactDOM, {render} from 'react-dom';
+import AppRoutes from './AppRoutes.jsx';
 
-class App extends Component {
-  render () {
-    return <p>React says Hello!</p>;
-  }
-}
-
-render(<App/>, document.getElementById('app'));
+render(<AppRoutes/>, document.getElementById('app'));
